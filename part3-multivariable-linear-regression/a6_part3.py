@@ -42,3 +42,6 @@ for index in range(len(xtest)):
     x_coord = xtest[index] # gets  x value 
     print(f"miles(000): {x_coord[0]} age: {x_coord[1]}  Actual: {actual} Predicted: {predicted_y}")
 
+cars= [[89,10],[150,20]]
+my_predictions= model.predict(cars)
+print(my_predictions)
