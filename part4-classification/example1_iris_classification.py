@@ -51,3 +51,5 @@ for index in range(len(x_test)):
         actual = "Iris-versicolor"
     print("Predicted Species: " + y_pred + " Actual Species: " + actual)
     print("")
+
+my_flower = [[7,3,5,2]]
